@@ -27,5 +27,6 @@ jobs:
           sources: |
             Contrib/SelfDel/selfdel.c
             Contrib/SelfDel/selfdel.rc
+          targets: x86-ansi,x86-unicode
           strict: false
           release: ${{ github.event_name == 'release' }}
